@@ -4,6 +4,7 @@ import LogoSvg from '@assets/logo.svg';
 import BackgroundImg from '@assets/background.png';
 
 import { Input } from '@components/Input';
+import { Button } from '@components/Button';
 
 export function SignIn() {
   return (
@@ -32,6 +33,8 @@ export function SignIn() {
           placeholder='Password' 
           secureTextEntry
         />
+
+        <Button title='Access' />
       </Center>
     </VStack>
   )
