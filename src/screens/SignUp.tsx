@@ -13,7 +13,7 @@ export function SignUp() {
       contentContainerStyle={{ flexGrow: 1 }}
       showsVerticalScrollIndicator={false}
     >
-      <VStack flex={1} bg='gray.700' px={10} pb={Platform.OS === 'ios' ? 40 : 16}>
+      <VStack flex={1} px={10} pb={Platform.OS === 'ios' ? 40 : 16}>
         <Image 
           source={BackgroundImg}
           alt="People training"
